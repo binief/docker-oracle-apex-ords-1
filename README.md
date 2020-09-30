@@ -5,13 +5,8 @@
 Oracle Express Edition 11g Release 2 on Ubuntu 18.04 LTS with APEX 19.1 with lang:(en|pt-br) and ORDS 19.2 on Tomcat
 
 #### Pull the docker image
-
-    docker pull studioatual/oracle-apex-ords
-
-#### Or Get the image code from github:
-
-    git clone https://github.com/studioatual/docker-oracle-apex-ords.git <own-image-name>
-    cd <own-image-name>
+    
+    docker pull biniefta/ords-apex
 
 #### Building your own image, with custom password:
 
