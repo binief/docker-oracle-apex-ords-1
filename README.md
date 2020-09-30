@@ -16,7 +16,7 @@ Oracle Express Edition 11g Release 2 on Ubuntu 18.04 LTS with APEX 19.1 with lan
 
     docker run -d --name <own-container-name> -p 22:22 -p 8080:8080 -p 1521:1521 <own-image-name>
     
-    docker run -d --name ora -p 5522:22 -p 8080:8080 -p 1521:1521 studioatual/oracle-apex-ords
+    docker run -d --name ora -p 5522:22 -p 8080:8080 -p 1521:1521 biniefta/ords-apex
 
 ##### Connect via ssh to server with following setting:
 
